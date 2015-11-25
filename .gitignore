@@ -1,0 +1,6 @@
+wp-config-local.php
+
+wp-content/themes/twentyfifteen/*
+
+*.sublime-project
+*.sublime-workspace
