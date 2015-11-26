@@ -4,3 +4,6 @@ wp-content/themes/twentyfifteen/*
 
 *.sublime-project
 *.sublime-workspace
+
+.DS_Store
+.sass-cache
