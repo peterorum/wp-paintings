@@ -2,6 +2,8 @@ wp-config-local.php
 
 wp-content/themes/twentyfifteen/*
 
+wp-content/uploads/
+
 *.sublime-project
 *.sublime-workspace
 
