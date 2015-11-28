@@ -1,6 +1,8 @@
 wp-config.php
 wp-config-local.php
 
+phpMyAdmin/
+
 wp-content/themes/twentyfifteen/*
 
 wp-content/uploads/
