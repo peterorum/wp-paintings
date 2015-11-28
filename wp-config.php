@@ -35,14 +35,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'bXM7#AU-#8D>A^g^uHvtJ:FXDIK/U/qNX+pW>Rd;T14j`wFacU1c|oLl$Vz7,E>N');
-define('SECURE_AUTH_KEY',  'p>x${Y9H 7yTo;gr!m;Y_h_?iYWyoGc%+5~)m.[ :b$02+#+$N]%jN)^-+6-JVsi');
-define('LOGGED_IN_KEY',    'KIn};Pyq <JYCgW3}:~9S-4ivq-z7L9-=pBt|v=X-T[4CB&S4FnW<uL`3U{y2?YC');
-define('NONCE_KEY',        'mM S&-<mYvw])^nHsM$|ke493*7OH,RCy;w<r+bcI[Quy,/vi$u?}_Q:@Y?N`]y$');
-define('AUTH_SALT',        '<{~HOA>K-9!R;woupx>DH7r_3dL1G)8wdR4?!oyv;q?)ko6!,oIS8BvJJNW;`7&+');
-define('SECURE_AUTH_SALT', '=y^bemd$9%.EklM;~aB0Px-+CXC@FF9&iv-^Yo[7hm_gYpe(4K9sG:#=e[Ho?i/f');
-define('LOGGED_IN_SALT',   'cTnDmft-tImwil![|]qJ| Ef]^Ke(w+w^r4(}BUh8hw1Tp>UK!-@Z}H+T}EwU0Ud');
-define('NONCE_SALT',       '!Cjupb@:WlHP`rF?kS%*Krns]-D(ZJ3^+N;?fV2G+X{j4)V7V~-e,3MGk#?~a!,y');
+define('AUTH_KEY',         ' aXZP/_f O_oqWoR+:`~A]1a}=V;0=C1|^ |WEHl4ShVG`qYa<7w2Sm2Nra#|~O8');
+define('SECURE_AUTH_KEY',  '5(Ash(-&P?<@+@>-3VJO-|+*rJx-[6%dIf*Aj=(%TWK1HhSIT/l6^-l-DP$k}o`|');
+define('LOGGED_IN_KEY',    '#n-~,l4^Q#zV6B=99bg*s.|8DywwZ>JJeYn`a sAq|`z_k>oKEBDrt={-395{aBB');
+define('NONCE_KEY',        '{Od=a[/7uy5(.P>F}j()?RE0CDn}Fep1vy+7%:]c{(eMPnf*n]-EZKV7cfd?(Cf_');
+define('AUTH_SALT',        'cpEr<:CVXXvx]A =<H1)u=0%X_8=~OaWpE!Y+Kjdo{!.ZbO`#.l<!zY*A6k<A5=Q');
+define('SECURE_AUTH_SALT', 'iB[%s?JAS(.w5jtB3<`Q7/z~5Rq_2=K>UpYb ehiK!pC#uY+hmWq+[l?vJ=k~ O(');
+define('LOGGED_IN_SALT',   'yXT8Yay<J&8XWczK;6xskT*O|nt,!(pa#lP/s7nQaQEJw%/:O+WkVI@{4V+&oCc:');
+define('NONCE_SALT',       'xel%,xUB>s<]]bvz%G(F>gS3-7>_iW+XHG(zpOn9Zo+(ni@n:PC0rGJ3B?m1}U>I');
 
 /**#@-*/
 
@@ -68,9 +68,11 @@ $table_prefix  = 'pjo_';
  */
 define('WP_DEBUG', false);
 
+define('WP_ALLOW_MULTISITE', true);
+
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true);
-define('DOMAIN_CURRENT_SITE', 'wp-pjo.local');
+#define('DOMAIN_CURRENT_SITE', 'of.peterorum.com');
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
