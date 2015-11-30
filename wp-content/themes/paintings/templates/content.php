@@ -6,4 +6,7 @@
   <div class="entry-summary">
     <?php the_excerpt(); ?>
   </div>
+  <div class="entry-thumbnail">
+    <?php the_post_thumbnail(); ?>
+  </div>
 </article>
